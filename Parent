@@ -1,0 +1,6 @@
+class Vehicle{
+    protected String brand = "TSRTC";
+    public void honk(){
+        System.out.println("Tuut, Tuut!");
+    }
+}
