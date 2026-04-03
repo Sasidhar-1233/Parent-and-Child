@@ -1,0 +1,14 @@
+class Bus extends Vehicle{
+    private String modelName = "Electric-Volvo";
+    private int capacity = 50;
+    public void displayInfo(){
+        System.out,println("Brand: "+ brand);
+        System.out,println("Model: "+ modelName);
+        System.out,println("Capacity: "+ capacity + "seats");
+    }
+    public static void main(String[] args){
+        Bus b = new Bus();
+        b.honk();
+        b.displayInfo();
+    }
+}
