@@ -1,0 +1,26 @@
+class Bus extends Vehicle{
+    private String modelName = "Electric-Volvo";
+    private int capacity = 50;
+    public void displayInfo(){
+        System.out,println("Brand: "+ brand);
+        System.out,println("Model: "+ modelName);
+        System.out,println("Capacity: "+ capacity + "seats");
+    }
+    class Passangers extends Bus{
+        Private String modelName = "Desiel Engine";
+        private int capacity = 65;
+        public void displayInfo(){
+            System.out,println("Brand: "+ brand);
+        System.out,println("Model: "+ modelName);
+        System.out,println("Capacity: "+ capacity + "seats");
+        }
+    }
+    public static void main(String[] args){
+        Bus b = new Bus();
+        Passangers s = new Passangers();
+        b.honk();
+        b.displayInfo();
+        s.displayInfo();
+        
+    }
+}
